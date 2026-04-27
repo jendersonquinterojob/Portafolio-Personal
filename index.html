@@ -1,364 +1,336 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="light" lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <meta name="author" content="Jenderson Josneider Quintero Guereguan">
     <meta name="description" content="¡Hola! me llamo Jenderson Quintero. Soy un estudiante de ingeniería de sistemas que estudia en la Universidad Metropolitana. Me considero una persona responsable y comprometida. Me gusta aprender de forma autónoma y estoy abierto a nuevos conocimientos. Mis áreas más fuertes son la programación, el desarrollo web y el servicio técnico. Si quieres saber más de mi te invito a entrar en mi sitio web">
     <meta name="keywords" content="sistemas, ingenieria de sistemas, programador, desarrollador web, estudiante, freelance, servicio tecnico, software, developer, student, system engineering, web development">
     <link rel="shortcut icon" href="assets/iconos/codificacion.svg">
-    <title>Jenderson Quintero</title>
-    <link rel="stylesheet" href="/styles/styles.css">
-    <link rel="stylesheet" href="/styles/navbar.css">
-    <link rel="stylesheet" href="/styles/hero.css">
-    <link rel="stylesheet" href="/styles/aboutme.css">
-    <link rel="stylesheet" href="/styles/skills.css">
-    <link rel="stylesheet" href="/styles/proyects.css">
-    <link rel="stylesheet" href="/styles/contact.css">
-    <link rel="stylesheet" href="/styles/footer.css">
-    <link rel="stylesheet" href="/styles/responsive.css">
-</head>
-<body>
-    <header id="inicio">
-        <nav class="navbar">
-            <div class="nombre">
-                <h2>Jenderson Quintero</h2>
-            </div>
-            <ul class="navbar-opciones">
-                <li><a href="#inicio" class="btn-opcion"><span><i class="fas fa-home fa-lg"></i></span>Inicio</a></li>
-                <li><a href="#sobre-mi" class="btn-opcion"><span><i class="fas fa-user fa-lg"></i></span>Sobre mi</a></li>
-                <li><a href="#habilidades" class="btn-opcion"><span><i class="fas fa-bolt fa-lg"></i></span>Habilidades</a></li>
-                <li><a href="#proyectos" class="btn-opcion"><span><i class="fas fa-folder fa-lg"></i></span>Mis proyectos</a></li>
-                <li><a href="#contactame" class="btn-opcion"><span><i class="fas fa-envelope fa-lg"></i></span>Contáctame</a></li>
-            </ul>
-            <span class="btn-menu"><i class="fa fa-bars fa-2x"></i></span>
-        </nav>
-        <div class="hero">
-            <div class="contenedor__slider">
-                <div class="slider" id="slider">
-                    <div class="slider__section">
-                        <img src="assets/img/slider-img2.jpg" alt="Programando" class="slider__img">
-                    </div>
-                    <div class="slider__section">
-                        <img src="assets/img/slider-img1.jpg" alt="Multiples lenguajes" class="slider__img">
-                    </div>
-                    <div class="slider__section">
-                        <img src="assets/img/slider-img3.jpg" alt="Código" class="slider__img">
-                    </div>
-                </div>
-            </div>
-            <div class="logo">
-                <h1>Jenderson Quintero</h1>
-                <p>Programador & Desarrollador Web</p>
-            </div>
-        </div>
-    </header>
-    <section id="sobre-mi">
-        <div class="contenido">
-            <h2 class="titulo">Sobre mí</h2>
-            <div class="contenedor">
-                <div class="img-jenderson" title="Jenderson Quintero">
-                    <img src="assets/img/foto-jenderson.jpg" alt="Jenderson Quintero">
-                </div>
-                <div class="texto">
-                    <p>Soy estudiante de la Universidad Metropolitana de Caracas. Actualmente estoy cursando el séptimo trimestre de la carrera Ingeniería de Sistemas. Me describo como un chico sencillo al que le gusta la música, programar y probar cosas nuevas. Podría decir que soy una persona cambiante y aún así me gusta terminar lo que empiezo. Considero que me comprometo mucho con lo que hago y me gusta hacer las cosas bien en el menor tiempo posible. Mis objetivos principales son lograr ser un excelente profesional que pueda garantizar un trabajo de calidad, aprender diferentes lenguajes de programación para tener multiples herramientas al momento de programar y tener buenos ingresos gracias a mi esfuerzo.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="habilidades">
-        <div class="contenido">
-            <h2 class="titulo">Mis Habilidades</h2>
-            <div class="mis-habilidades">
-                <div class="contenedor-lista">
-                    <h2>Desarrollo de Sitios y Aplicaciones Web</h2>
-                    <ul class="lista-habilidades">
-                        <li title="HTML">
-                            <span>
-                                <img
-                                src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png"
-                                alt="Habilidad HTML"
-                            />
-                            </span>
-                            <div class="barra-habilidad">
-                                <p>80%</p>
-                                <div class="carga html"></div>
-                            </div>
-                        </li>
-                        <li title="CSS & SCSS">
-                            <span>
-                                <img
-                                src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png"
-                                alt="Habilidad CSS & SCSS"
-                            />
-                            </span>
-                            <div class="barra-habilidad">
-                                <p>50%</p>
-                                <div class="carga css"></div>
-                            </div>
-                        </li>
-                        <li title="Angular">
-                            <span>
-                                <img
-                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png"
-                                alt="Habilidad Angular"
-                            />
-                            </span>
-                            <div class="barra-habilidad">
-                                <p>70%</p>
-                                <div class="carga angular"></div>
-                            </div>
-                        </li>
-                        <li title="Firebase">
-                            <span>
-                                <img
-                                src="https://cdn.dribbble.com/users/528264/screenshots/3140440/firebase_logo.png?compress=1&resize=400x300"
-                                alt="Habilidad Firebase"
-                            />
-                            </span>
-                            <div class="barra-habilidad">
-                                <p>80%</p>
-                                <div class="carga firebase"></div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="contenedor-lista">
-                    <h2>Programación</h2>
-                    <ul class="lista-habilidades">
-                        <li title="Python">
-                            <span>
-                                <img
-                                src="https://pngpress.com/wp-content/uploads/2020/03/Python-Logo-PNG-Image.png"
-                                alt="Habilidad Python"
-                            />
-                            </span>
-                            <div class="barra-habilidad">
-                                <p>70%</p>
-                                <div class="carga python"></div>
-                            </div>
-                        </li>
-                        <li title="Java">
-                            <span>
-                                <img
-                                src="https://logoeps.com/wp-content/uploads/2011/06/java-logo-vector.png"
-                                alt="Habilidad Java"
-                            />
-                            </span>
-                            <div class="barra-habilidad">
-                                <p>50%</p>
-                                <div class="carga java"></div>
-                            </div>
-                        </li>
-                        <li title="JavaScript">
-                            <span>
-                                <img
-                                src="https://mercedesdavila.github.io/img/js.png"
-                                alt="Habilidad JavaScript"
-                            />
-                            </span>
-                            <div class="barra-habilidad">
-                                <p>40%</p>
-                                <div class="carga javascript"></div>
-                            </div>
-                        </li>
-                        <li title="TypeScript">
-                            <span>
-                                <img
-                                src="assets/img/ts-logo-round-512.png"
-                                alt="Habilidad TypeScript"
-                            />
-                            </span>
-                            <div class="barra-habilidad">
-                                <p>65%</p>
-                                <div class="carga typescript"></div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="contenedor-lista">
-                    <h2>Herramientas Complementarias</h2>
-                    <ul class="lista-habilidades">
-                        <li title="GitHub">
-                            <span>
-                                <img
-                                src="https://www.sferalabs.cc/wp-content/uploads/github-logo-white.png"
-                                alt="Habilidad GitHub"
-                            />
-                            </span>
-                            <div class="barra-habilidad">
-                                <p>70%</p>
-                                <div class="carga github"></div>
-                            </div>
-                        </li>
-                        <li title="Office">
-                            <span>
-                                <img
-                                src="https://i1.wp.com/elpoderdelasideas.com/wp-content/uploads/Microsoft-Office-icon-2012.png?resize=267%2C320"
-                                alt="Habilidad Office"
-                            />
-                            </span>
-                            <div class="barra-habilidad">
-                                <p>90%</p>
-                                <div class="carga office"></div>
-                            </div>
-                        </li>
-                        <li title="Inglés A2">
-                            <span>
-                                <img
-                                src="https://cdn.pixabay.com/photo/2018/05/27/14/26/union-jack-3433619_960_720.png"
-                                alt="Habilidad ingles"
-                            />
-                            </span>
-                            <div class="barra-habilidad">
-                                <p>40%</p>
-                                <div class="carga ingles"></div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="proyectos">
-        <div class="contenido">
-            <h2 class="titulo">Mis Proyectos</h2>
-            <div class="mis-proyectos">
-                <div class="proyecto" title="Adivinador de Animales">
-                    <img
-                        src="assets/img/adivinadorAnimales.jpg"
-                        alt="Proyecto adivinador de animales"
-                    />
-                    <div class="informacion">
-                        <p><strong>Proyecto: </strong>Adivinador de Animales</p>
-                        <p><strong>Desarrollado con: </strong>Java</p>
-                        <p><strong>GitHub: </strong><a href="https://github.com/JendersonQuintero/Adivinador-de-animales">Click aquí...</a></p>
-                    </div>
-                </div>
-                <div class="proyecto" title="Proyecto Arbol Binario AVL">
-                    <img
-                        src="assets/img/ArbolBinarioAVL.png"
-                        alt="Arbol binario AVL"
-                    />
-                    <div class="informacion">
-                        <p><strong>Proyecto: </strong>Arbol Binario AVL</p>
-                        <p><strong>Desarrollado con: </strong>Java</p>
-                        <p><strong>GitHub: </strong><a href="https://github.com/JendersonQuintero/Arbol-Binario-AVL">Click aquí...</a></p>
-                    </div>
-                </div>
-                <div class="proyecto" title="Proyecto Asosiación de Vecinos">
-                    <img
-                        src="assets/img/asociacionVecinos.jpg"
-                        alt="Buscador de personas"
-                    />
-                    <div class="informacion">
-                        <p><strong>Proyecto: </strong>Asociación de Vecinos</p>
-                        <p><strong>Desarrollado con: </strong>Java</p>
-                        <p><strong>GitHub: </strong><a href="https://github.com/JendersonQuintero/Asociaci-n-Vecinos">Click aquí...</a></p>
-                    </div>
-                </div>
-                <div class="proyecto" title="Proyecto AutomotrizBGMQ">
-                    <img
-                        src="assets/img/automotrizBGMQ.png"
-                        alt="Home page de AutomotrizBGMQ"
-                    />
-                    <div class="informacion">
-                        <p><strong>Proyecto: </strong>AutomotrizBGMQ</p>
-                        <p><strong>Desarrollado con: </strong>Angular y Firebase</p>
-                        <p><strong>Url: </strong><a href="https://automotrizbgmq.web.app">Click aquí...</a></p>
-                        <p><strong>GitHub: </strong><a href="https://github.com/nbolinaga/automotrizBGMQ/tree/Jenderson">Click aquí...</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="contactame">
-        <div class="contenido">
-            <h2 class="titulo">Contáctame</h2>
-            <div class="contenedor">
-                <form name="contact" method="POST" data-netlify="true" class="formulario" id="formulario">
-                    
-                    <div class="input-ico" id="nombre" title="Ingrese su nombre. Solo se admiten letras">
-                      <span><i class="fas fa-user"></i></span>
-                      <input type="text" placeholder="Nombre" name="Nombre">
-                      <span><i class="fas ico" id="ico-nombre"></i></span>
-                    </div>
-        
-                    <div class="input-ico" id="correo" title="Ingrese su correo. Ej: Jonhdoe@correo.com">
-                      <span><i class="fas fa-at"></i></span>
-                      <input type="text" placeholder="Correo" name="Correo">
-                      <span><i class="fas ico" id="ico-correo"></i></span>
-                    </div>
-                    <div class="input-ico" id="asunto" title="Escriba el asunto del correo. Solo se admiten letras y números">
-                      <span><i class="fas fa-envelope-open-text"></i></span>
-                      <input type="text" placeholder="Asunto" name="Asunto">
-                      <span><i class="fas ico" id="ico-asunto"></i></span>
-                    </div>
-            
-                    <textarea placeholder="Escriba su mensaje aquí..." name="Mensaje"
-                    title="Escriba su mensaje aquí. Máximo 1000 carácteres."
-                    id="mensaje"></textarea>
-                    <button type="submit">Enviar</button>
-                </form>
-                <aside class="datos-contacto">
-                    <div class="info telefonos">
-                        <h3><span><i class="fas fa-phone-alt"></i></span>Teléfonos</h3>
-                        <p><strong>Personal:</strong> (0412) 275.21.29</p>
-                        <p><strong>Opcional:</strong> (0412) 914.11.31 </p> 
-                    </div>
-                    <div class="info correos">
-                        <h3><span><i class="fas fa-envelope"></i></span>Correos de contacto</h3>
-                        <p>Jendersonq.20@gmail.com</p>
-                        <p>Jendersonq_13@hotmail.com</p>
-                    </div>
-                    <div class="info redes">
-                        <h3><span><i class="fas fa-share-alt"></i></span>Mis redes</h3>
-                        <div class="iconos">
-                            <span class="icono facebook">
-                                <a href="https://www.facebook.com/jenderson.quintero" target="_blank">
-                                    <img src="/assets/iconos/icon-facebook.svg" 
-                                    alt="Red Facebook"
-                                    title="Mi cuenta en Facebook">
-                                </a>
-                            </span>
-                            <span class="icono instagram">
-                                <a href="https://www.instagram.com/jendersonquintero/" target="_blank">
-                                    <img src="/assets/iconos/icon-instagram.svg" 
-                                    alt="Red Instagram"
-                                    title="Mi cuenta en Instagram">
-                                </a>
-                            </span>
-                            <span class="icono github">
-                                <a href="https://github.com/JendersonQuintero" target="_blank">
-                                    <img src="https://www.sferalabs.cc/wp-content/uploads/github-logo-white.png" 
-                                    alt="Red GitHub"
-                                    title="Mi cuenta en GitHub">
-                                </a>
-                            </span>
-                            <span class="icono linkedin">
-                                <a href="https://www.linkedin.com/in/jenderson-quintero-4b5479206/" target="_blank">
-                                    <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-256.png" 
-                                    alt="Red LinkedIn"
-                                    title="Mi cuenta en LinkedIn">
-                                </a>
-                            </span>
-                        </div>
-                    </div>
-                </aside>
-            </div>
-        </div>
-    </section>
-    <footer>
-        <p>Copyright&copy; 2021 - Página creada por Jenderson Quintero - <strong>Todos los derechos reservados</strong> | Edif. La Terraza, apto 9A. Terrazas del Ávila. Caracas.</p>
-        <span title="Volver al inicio"><a href="#inicio"><i class="fas fa-angle-up fa-3x subir"></i></a></span>
-    </footer>
     
-    <!-- Scripts de mi página web -->
-    <script src="main.js"></script>
-    <script src="https://kit.fontawesome.com/1d776de31d.js" crossorigin="anonymous"></script>
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <!-- Scripts de mi página web -->
+    <title>Jenderson Quintero | Full-Stack Developer &amp; Automation Specialist</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script src="tailwind.config.js"></script>
+    
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body class="bg-surface text-on-surface font-body-base antialiased">
+<!-- TopNavBar -->
+<nav class="sticky top-0 w-full z-50 border-b border-slate-200 dark:border-slate-800 shadow-sm bg-white/90 backdrop-blur-md dark:bg-slate-900/90">
+    <div class="max-w-[1200px] mx-auto flex justify-between items-center px-6 py-4">
+        <a class="font-h3 text-h3 tracking-tighter text-slate-900 dark:text-white" href="#">Jenderson Q.</a>
+        <div class="hidden md:flex gap-6 items-center nav-links">
+            <a class="font-body-base text-body-base text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-colors duration-200" href="#work">Proyectos</a>
+            <a class="font-body-base text-body-base text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-colors duration-200" href="#experience">Experiencia</a>
+            <a class="font-body-base text-body-base text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-colors duration-200" href="#skills">Habilidades</a>
+            <a class="font-body-base text-body-base text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-colors duration-200" href="#contact">Contacto</a>
+        </div>
+        <a class="hidden md:inline-flex items-center justify-center px-4 py-2 bg-primary-container text-on-primary rounded-lg font-body-base text-body-base hover:bg-opacity-90 transition-all active:scale-95" href="https://github.com/JendersonQuintero" target="_blank">
+            GitHub
+        </a>
+        <!-- Mobile Menu Button -->
+        <button class="md:hidden text-slate-900 btn-menu">
+            <span class="material-symbols-outlined">menu</span>
+        </button>
+    </div>
+    <!-- Mobile Menu -->
+    <div class="md:hidden hidden flex-col gap-4 px-6 pb-4 bg-white/90 backdrop-blur-md dark:bg-slate-900/90 mobile-menu">
+        <a class="font-body-base text-body-base text-slate-500 hover:text-slate-900 transition-colors duration-200 btn-opcion" href="#work">Proyectos</a>
+        <a class="font-body-base text-body-base text-slate-500 hover:text-slate-900 transition-colors duration-200 btn-opcion" href="#experience">Experiencia</a>
+        <a class="font-body-base text-body-base text-slate-500 hover:text-slate-900 transition-colors duration-200 btn-opcion" href="#skills">Habilidades</a>
+        <a class="font-body-base text-body-base text-slate-500 hover:text-slate-900 transition-colors duration-200 btn-opcion" href="#contact">Contacto</a>
+    </div>
+</nav>
+
+<main class="max-w-[1200px] mx-auto px-6">
+    <!-- Hero Section -->
+    <section class="min-h-[819px] flex flex-col justify-center py-section-gap">
+        <div class="max-w-3xl flex flex-col gap-stack-lg">
+            <h1 class="font-h1 text-h1 text-on-surface">Jenderson Quintero</h1>
+            <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+                Soy estudiante de la Universidad Metropolitana de Caracas cursando Ingeniería de Sistemas. Me describo como una persona responsable y comprometida, me gusta aprender de forma autónoma. Mis objetivos son ser un excelente profesional, garantizando un trabajo de calidad y desarrollar soluciones eficientes.
+            </p>
+            <div class="flex flex-wrap gap-stack-md mt-4">
+                <a class="inline-flex items-center justify-center px-6 py-3 bg-primary-container text-on-primary rounded-lg font-body-base text-body-base hover:bg-opacity-90 transition-all" href="#work">
+                    Ver Proyectos
+                </a>
+                <a class="inline-flex items-center justify-center px-6 py-3 bg-transparent border border-outline-variant text-on-surface rounded-lg font-body-base text-body-base hover:border-secondary hover:text-secondary transition-all" href="#contact">
+                    Contáctame
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="py-section-gap border-t border-slate-200" id="experience">
+        <div class="mb-12">
+            <h2 class="font-h2 text-h2 text-on-surface mb-2">Experiencia</h2>
+            <p class="font-body-base text-body-base text-on-surface-variant">Trayectoria profesional y proyectos destacados.</p>
+        </div>
+        <div class="relative border-l-2 border-slate-200 ml-4 md:ml-0 pl-8 md:pl-12 flex flex-col gap-12">
+            <!-- BVC Node -->
+            <div class="relative">
+                <div class="absolute -left-[39px] md:-left-[55px] top-1 w-4 h-4 bg-secondary rounded-full border-4 border-surface"></div>
+                <div class="flex flex-col md:flex-row md:items-baseline gap-2 md:gap-4 mb-2">
+                    <h3 class="font-h3 text-h3 text-on-surface">Senior Developer</h3>
+                    <span class="font-body-base text-body-base text-on-surface-variant">Banco Venezolano de Crédito (BVC)</span>
+                </div>
+                <p class="font-body-base text-body-base text-on-surface-variant max-w-2xl">
+                    Desarrollo y mantenimiento de aplicaciones críticas. Implementación de automatizaciones para procesos financieros internos, mejorando la eficiencia y reduciendo tiempos operativos.
+                </p>
+            </div>
+            <!-- Freelance Node -->
+            <div class="relative">
+                <div class="absolute -left-[39px] md:-left-[55px] top-1 w-4 h-4 bg-secondary rounded-full border-4 border-surface"></div>
+                <div class="flex flex-col md:flex-row md:items-baseline gap-2 md:gap-4 mb-2">
+                    <h3 class="font-h3 text-h3 text-on-surface">Tech Consultant</h3>
+                    <span class="font-body-base text-body-base text-on-surface-variant">Independent / Freelance</span>
+                </div>
+                <p class="font-body-base text-body-base text-on-surface-variant max-w-2xl">
+                    Consultoría tecnológica para diversas startups y PYMES. Diseño de arquitecturas cloud, desarrollo de MVPs y optimización de flujos de trabajo mediante scripts personalizados.
+                </p>
+            </div>
+            <!-- Education Node -->
+            <div class="relative">
+                <div class="absolute -left-[39px] md:-left-[55px] top-1 w-4 h-4 bg-slate-300 rounded-full border-4 border-surface"></div>
+                <div class="flex flex-col md:flex-row md:items-baseline gap-2 md:gap-4 mb-2">
+                    <h3 class="font-h3 text-h3 text-on-surface">Educación</h3>
+                    <span class="font-body-base text-body-base text-on-surface-variant">Universidad Metropolitana</span>
+                </div>
+                <p class="font-body-base text-body-base text-on-surface-variant max-w-2xl">
+                    Formación académica sólida en ciencias de la computación y sistemas de información.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="py-section-gap border-t border-slate-200" id="skills">
+        <div class="mb-12">
+            <h2 class="font-h2 text-h2 text-on-surface mb-2">Habilidades Técnicas</h2>
+            <p class="font-body-base text-body-base text-on-surface-variant">Herramientas y tecnologías que utilizo en mi día a día.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Frontend -->
+            <div class="bg-surface-container-lowest p-8 rounded-xl ambient-shadow card-border flex flex-col gap-4">
+                <h3 class="font-h3 text-h3 text-on-surface border-b border-slate-100 pb-2">Frontend</h3>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-slate-100 text-slate-700 px-3 py-1 rounded-full font-label-pill text-label-pill">Angular</span>
+                    <span class="bg-slate-100 text-slate-700 px-3 py-1 rounded-full font-label-pill text-label-pill">HTML5</span>
+                    <span class="bg-slate-100 text-slate-700 px-3 py-1 rounded-full font-label-pill text-label-pill">CSS/SCSS</span>
+                    <span class="bg-slate-100 text-slate-700 px-3 py-1 rounded-full font-label-pill text-label-pill">Tailwind</span>
+                </div>
+            </div>
+            <!-- Backend -->
+            <div class="bg-surface-container-lowest p-8 rounded-xl ambient-shadow card-border flex flex-col gap-4">
+                <h3 class="font-h3 text-h3 text-on-surface border-b border-slate-100 pb-2">Backend</h3>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-slate-100 text-slate-700 px-3 py-1 rounded-full font-label-pill text-label-pill">Java</span>
+                    <span class="bg-slate-100 text-slate-700 px-3 py-1 rounded-full font-label-pill text-label-pill">Node.js</span>
+                    <span class="bg-slate-100 text-slate-700 px-3 py-1 rounded-full font-label-pill text-label-pill">Python</span>
+                    <span class="bg-slate-100 text-slate-700 px-3 py-1 rounded-full font-label-pill text-label-pill">TypeScript</span>
+                    <span class="bg-slate-100 text-slate-700 px-3 py-1 rounded-full font-label-pill text-label-pill">JavaScript</span>
+                </div>
+            </div>
+            <!-- Database & Cloud -->
+            <div class="bg-surface-container-lowest p-8 rounded-xl ambient-shadow card-border flex flex-col gap-4">
+                <h3 class="font-h3 text-h3 text-on-surface border-b border-slate-100 pb-2">Bases de Datos &amp; Cloud</h3>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-slate-100 text-slate-700 px-3 py-1 rounded-full font-label-pill text-label-pill">Firebase</span>
+                    <span class="bg-slate-100 text-slate-700 px-3 py-1 rounded-full font-label-pill text-label-pill">SQL</span>
+                    <span class="bg-slate-100 text-slate-700 px-3 py-1 rounded-full font-label-pill text-label-pill">PostgreSQL</span>
+                </div>
+            </div>
+            <!-- Tools -->
+            <div class="bg-surface-container-lowest p-8 rounded-xl ambient-shadow card-border flex flex-col gap-4">
+                <h3 class="font-h3 text-h3 text-on-surface border-b border-slate-100 pb-2">Tools</h3>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-slate-100 text-slate-700 px-3 py-1 rounded-full font-label-pill text-label-pill">Git & GitHub</span>
+                    <span class="bg-slate-100 text-slate-700 px-3 py-1 rounded-full font-label-pill text-label-pill">Office</span>
+                </div>
+            </div>
+            <!-- Soft Skills -->
+            <div class="bg-surface-container-lowest p-8 rounded-xl ambient-shadow card-border flex flex-col gap-4 md:col-span-2 lg:col-span-2">
+                <h3 class="font-h3 text-h3 text-on-surface border-b border-slate-100 pb-2">Soft Skills</h3>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-slate-100 text-slate-700 px-3 py-1 rounded-full font-label-pill text-label-pill">Responsabilidad</span>
+                    <span class="bg-slate-100 text-slate-700 px-3 py-1 rounded-full font-label-pill text-label-pill">Aprendizaje Autónomo</span>
+                    <span class="bg-slate-100 text-slate-700 px-3 py-1 rounded-full font-label-pill text-label-pill">Compromiso</span>
+                    <span class="bg-slate-100 text-slate-700 px-3 py-1 rounded-full font-label-pill text-label-pill">Resolución de problemas</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="py-section-gap border-t border-slate-200" id="work">
+        <div class="mb-12">
+            <h2 class="font-h2 text-h2 text-on-surface mb-2">Mis Proyectos</h2>
+            <p class="font-body-base text-body-base text-on-surface-variant">Ejemplos recientes de aplicaciones desarrolladas.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            
+            <!-- Project Card 1: AutomotrizBGMQ -->
+            <div class="bg-surface-container-lowest rounded-xl ambient-shadow card-border overflow-hidden group hover:border-secondary transition-colors duration-300 flex flex-col">
+                <div class="h-48 bg-slate-100 relative overflow-hidden">
+                    <img alt="Home page de AutomotrizBGMQ" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="assets/img/automotrizBGMQ.png"/>
+                </div>
+                <div class="p-8 flex flex-col flex-grow gap-4">
+                    <h3 class="font-h3 text-h3 text-on-surface">AutomotrizBGMQ</h3>
+                    <p class="font-body-base text-body-base text-on-surface-variant flex-grow">
+                        Desarrollo frontend utilizando Angular e integración con Firebase.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-slate-100 text-slate-700 px-2 py-1 rounded font-label-pill text-label-pill text-xs">Angular</span>
+                        <span class="bg-slate-100 text-slate-700 px-2 py-1 rounded font-label-pill text-label-pill text-xs">Firebase</span>
+                    </div>
+                    <div class="flex gap-4">
+                        <a href="https://automotrizbgmq.web.app" target="_blank" class="text-secondary hover:underline font-body-base text-sm">Ver Proyecto</a>
+                        <a href="https://github.com/nbolinaga/automotrizBGMQ/tree/Jenderson" target="_blank" class="text-slate-500 hover:text-secondary font-body-base text-sm">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Card 2: Adivinador de Animales -->
+            <div class="bg-surface-container-lowest rounded-xl ambient-shadow card-border overflow-hidden group hover:border-secondary transition-colors duration-300 flex flex-col">
+                <div class="h-48 bg-slate-100 relative overflow-hidden">
+                    <img alt="Proyecto adivinador de animales" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="assets/img/adivinadorAnimales.jpg"/>
+                </div>
+                <div class="p-8 flex flex-col flex-grow gap-4">
+                    <h3 class="font-h3 text-h3 text-on-surface">Adivinador de Animales</h3>
+                    <p class="font-body-base text-body-base text-on-surface-variant flex-grow">
+                        Un programa interactivo para adivinar animales a través de preguntas, implementando árboles binarios de decisión.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-slate-100 text-slate-700 px-2 py-1 rounded font-label-pill text-label-pill text-xs">Java</span>
+                    </div>
+                    <div class="flex gap-4">
+                        <a href="https://github.com/JendersonQuintero/Adivinador-de-animales" target="_blank" class="text-slate-500 hover:text-secondary font-body-base text-sm">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Card 3: Arbol Binario AVL -->
+            <div class="bg-surface-container-lowest rounded-xl ambient-shadow card-border overflow-hidden group hover:border-secondary transition-colors duration-300 flex flex-col">
+                <div class="h-48 bg-slate-100 relative overflow-hidden">
+                    <img alt="Arbol binario AVL" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="assets/img/ArbolBinarioAVL.png"/>
+                </div>
+                <div class="p-8 flex flex-col flex-grow gap-4">
+                    <h3 class="font-h3 text-h3 text-on-surface">Árbol Binario AVL</h3>
+                    <p class="font-body-base text-body-base text-on-surface-variant flex-grow">
+                        Implementación de la estructura de datos Árbol AVL (Árbol Binario de Búsqueda Auto-balanceable).
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-slate-100 text-slate-700 px-2 py-1 rounded font-label-pill text-label-pill text-xs">Java</span>
+                    </div>
+                    <div class="flex gap-4">
+                        <a href="https://github.com/JendersonQuintero/Arbol-Binario-AVL" target="_blank" class="text-slate-500 hover:text-secondary font-body-base text-sm">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Card 4: Asociación de Vecinos -->
+            <div class="bg-surface-container-lowest rounded-xl ambient-shadow card-border overflow-hidden group hover:border-secondary transition-colors duration-300 flex flex-col">
+                <div class="h-48 bg-slate-100 relative overflow-hidden">
+                    <img alt="Proyecto Asociación de Vecinos" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="assets/img/asociacionVecinos.jpg"/>
+                </div>
+                <div class="p-8 flex flex-col flex-grow gap-4">
+                    <h3 class="font-h3 text-h3 text-on-surface">Asociación de Vecinos</h3>
+                    <p class="font-body-base text-body-base text-on-surface-variant flex-grow">
+                        Sistema para administrar y buscar personas en una asociación utilizando programación orientada a objetos.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-slate-100 text-slate-700 px-2 py-1 rounded font-label-pill text-label-pill text-xs">Java</span>
+                    </div>
+                    <div class="flex gap-4">
+                        <a href="https://github.com/JendersonQuintero/Asociaci-n-Vecinos" target="_blank" class="text-slate-500 hover:text-secondary font-body-base text-sm">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-section-gap border-t border-slate-200 mb-20" id="contact">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div class="md:col-span-1 flex flex-col gap-6">
+                <div>
+                    <h2 class="font-h2 text-h2 text-on-surface mb-2">Contáctame</h2>
+                    <p class="font-body-base text-body-base text-on-surface-variant">Disponible para nuevas oportunidades y colaboraciones.</p>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <div class="flex items-center gap-3 text-on-surface-variant">
+                        <span class="material-symbols-outlined text-outline">mail</span>
+                        <span class="font-body-base text-body-base">Jendersonq.20@gmail.com</span>
+                    </div>
+                    <div class="flex items-center gap-3 text-on-surface-variant">
+                        <span class="material-symbols-outlined text-outline">mail</span>
+                        <span class="font-body-base text-body-base">Jendersonq_13@hotmail.com</span>
+                    </div>
+                    <div class="flex items-center gap-3 text-on-surface-variant">
+                        <span class="material-symbols-outlined text-outline">phone</span>
+                        <span class="font-body-base text-body-base">(0412) 275.21.29</span>
+                    </div>
+                    <div class="flex items-center gap-3 text-on-surface-variant">
+                        <span class="material-symbols-outlined text-outline">link</span>
+                        <a class="font-body-base text-body-base hover:text-secondary underline" href="https://www.linkedin.com/in/jenderson-quintero-4b5479206/" target="_blank">LinkedIn Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="md:col-span-2">
+                <form name="contact" method="POST" data-netlify="true" class="bg-surface-container-lowest p-8 rounded-xl ambient-shadow card-border flex flex-col gap-6" id="formulario">
+                    <div class="flex flex-col gap-2 relative">
+                        <label class="font-body-base text-body-base text-on-surface font-medium" for="name">Nombre</label>
+                        <input class="w-full bg-transparent border-slate-200 rounded-lg focus:border-secondary focus:ring-secondary text-on-surface p-3" id="name" name="Nombre" placeholder="Tu nombre" type="text"/>
+                        <span class="absolute right-3 top-10"><i class="fas" id="ico-name"></i></span>
+                    </div>
+                    <div class="flex flex-col gap-2 relative">
+                        <label class="font-body-base text-body-base text-on-surface font-medium" for="email">Correo</label>
+                        <input class="w-full bg-transparent border-slate-200 rounded-lg focus:border-secondary focus:ring-secondary text-on-surface p-3" id="email" name="Correo" placeholder="tu@email.com" type="email"/>
+                        <span class="absolute right-3 top-10"><i class="fas" id="ico-email"></i></span>
+                    </div>
+                    <div class="flex flex-col gap-2 relative">
+                        <label class="font-body-base text-body-base text-on-surface font-medium" for="subject">Asunto</label>
+                        <input class="w-full bg-transparent border-slate-200 rounded-lg focus:border-secondary focus:ring-secondary text-on-surface p-3" id="subject" name="Asunto" placeholder="Asunto del mensaje" type="text"/>
+                        <span class="absolute right-3 top-10"><i class="fas" id="ico-subject"></i></span>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <label class="font-body-base text-body-base text-on-surface font-medium" for="message">Mensaje</label>
+                        <textarea class="w-full bg-transparent border-slate-200 rounded-lg focus:border-secondary focus:ring-secondary text-on-surface p-3" id="message" name="Mensaje" placeholder="¿Cómo puedo ayudarte?" rows="4"></textarea>
+                    </div>
+                    <button class="self-start px-6 py-3 bg-primary-container text-on-primary rounded-lg font-body-base text-body-base hover:bg-opacity-90 transition-all" type="submit">
+                        Enviar Mensaje
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer class="w-full border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950">
+    <div class="max-w-[1200px] mx-auto py-12 px-6 flex flex-col md:flex-row justify-between items-center gap-6">
+        <span class="font-body-base text-xs font-normal tracking-wide text-slate-500 dark:text-slate-400 text-center md:text-left">
+            Copyright© 2024 - Página creada por Jenderson Quintero - Todos los derechos reservados
+        </span>
+        <div class="flex gap-6">
+            <a class="font-body-base text-xs font-normal tracking-wide text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white hover:underline transition-all cursor-pointer" href="https://github.com/JendersonQuintero" target="_blank">GitHub</a>
+            <a class="font-body-base text-xs font-normal tracking-wide text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white hover:underline transition-all cursor-pointer" href="https://www.linkedin.com/in/jenderson-quintero-4b5479206/" target="_blank">LinkedIn</a>
+            <a class="font-body-base text-xs font-normal tracking-wide text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white hover:underline transition-all cursor-pointer" href="https://www.instagram.com/jendersonquintero/" target="_blank">Instagram</a>
+            <a class="font-body-base text-xs font-normal tracking-wide text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white hover:underline transition-all cursor-pointer" href="https://www.facebook.com/jenderson.quintero" target="_blank">Facebook</a>
+        </div>
+    </div>
+</footer>
+
+<!-- Scripts -->
+<script src="https://kit.fontawesome.com/1d776de31d.js" crossorigin="anonymous"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="main.js"></script>
+
 </body>
 </html>
